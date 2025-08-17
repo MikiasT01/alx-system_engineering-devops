@@ -1,0 +1,5 @@
+#!/bin/bash
+water_len=${#WATER}
+stir_len=${#STIR}
+total=$((water_len + stir_len))
+echo ${STIR:0:total} | tr '[:lower:]' 'shtbeolhc'
