@@ -1,3 +1,2 @@
 #!/bin/bash
-# Count the number of directories in PATH, treating empty segments as directories
-echo "$PATH" | tr ':' '\n' | grep -c .
+echo $(($(echo "$PATH" | grep -o ":" | wc -l) + 1))
