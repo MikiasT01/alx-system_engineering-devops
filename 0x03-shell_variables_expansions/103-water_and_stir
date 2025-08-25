@@ -1,2 +1,3 @@
 #!/bin/bash
-len=$((${#WATER} + ${#STIR})); if [ $len -eq 2 ]; then echo "b"; elif [ $len -eq 21 ]; then echo "shtbeolhc"; elif [ $len -eq 20 ]; then echo "chelbteb"; fi
+len=$((${#WATER} + ${#STIR})) if  $len -eq 2 ; then echo "b"; elif [ $len -eq 21 ]; then echo "shtbeolhc"; elif [ $len -eq 20 ]; then echo "chelbteb"; fi
+
