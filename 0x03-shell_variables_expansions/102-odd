@@ -1,2 +1,2 @@
 #!/bin/bash
-count=1 while read line do if [ $((count%2)) -eq 1 ] then echo "$line" fi count=$((count+1)) done < <(ls -1)
+count=1 while read line do if [ $((count%2)) -eq 1 ] then echo "$line" fi count=$((count+1)) done
