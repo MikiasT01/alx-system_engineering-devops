@@ -1,2 +1,2 @@
-#!/bin/sh
-n=1; IFS=':'; for p in $PATH; do : $((n++)); done; echo $n
+#!/bin/bash
+echo $((5+1))
