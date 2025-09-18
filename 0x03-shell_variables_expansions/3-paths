@@ -1,2 +1,2 @@
-#!/bin/bash
-echo $(( ${#${PATH}} - ${#${PATH//:/}} + 1 ))
+#!/bin/sh
+n=1; IFS=':'; for p in $PATH; do : $((n++)); done; echo $n
